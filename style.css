@@ -1,130 +1,86 @@
-
-* {
-  box-sizing: border-box;
-}
-
 body {
+  font-family: Arial;
+  background-color: lavender;
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f3f0ff;
-  color: #333;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 nav {
-  background-color: #4b3fa0;
+  background-color: purple;
   text-align: center;
   padding: 15px;
-  position: sticky;
-  top: 0;
 }
 
 nav a {
   color: white;
   text-decoration: none;
   margin: 0 15px;
-  font-weight: bold;
 }
 
 nav a:hover {
-  color: #ffd166;
+  color: yellow;
 }
 
-
 header {
-  background: linear-gradient(to right, #6a5acd, #b07cff);
-  color: white;
+  background-color: plum;
   text-align: center;
-  padding: 70px 20px;
+  padding: 50px;
 }
 
 .circle {
-  width: 110px;
-  height: 110px;
+  width: 100px;
+  height: 100px;
   background-color: white;
-  color: #6a5acd;
+  color: purple;
   font-size: 50px;
-  font-weight: bold;
   border-radius: 50%;
-  margin: 0 auto 20px auto;
-  line-height: 110px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-}
-
-header h1 {
-  margin: 10px 0;
-  font-size: 38px;
+  margin: auto;
+  padding-top: 0;
 }
 
 .btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 12px 28px;
-  background-color: #ffd166;
-  color: #333;
+  background-color: purple;
+  color: white;
+  padding: 10px 20px;
   text-decoration: none;
-  font-weight: bold;
-  border-radius: 30px;
 }
 
-.btn:hover {
-  background-color: white;
-}
 
-/* All sections */
 section {
-  max-width: 750px;
-  margin: 30px auto;
-  padding: 25px;
   background-color: white;
-  border-radius: 15px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
   text-align: center;
 }
 
-section h2 {
-  color: #4b3fa0;
+h2 {
+  color: purple;
 }
 
-/* Skills */
+
 .skill {
-  display: inline-block;
-  background-color: #6a5acd;
+  background-color: purple;
   color: white;
-  padding: 8px 18px;
+  padding: 8px 15px;
   margin: 5px;
-  border-radius: 20px;
-}
-
-/* Project cards */
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
+  display: inline-block;
 }
 
 .card {
+  background-color: lavender;
+  border: 2px solid purple;
   width: 200px;
-  padding: 20px;
-  background-color: #f3f0ff;
-  border-radius: 12px;
-  border: 2px solid #b07cff;
+  padding: 15px;
+  margin: 10px;
+  display: inline-block;
 }
 
 .card:hover {
-  background-color: #b07cff;
-  color: white;
-  transform: scale(1.05);
+  background-color: plum;
 }
-
 footer {
-  background-color: #4b3fa0;
+  background-color: purple;
   color: white;
   text-align: center;
   padding: 15px;
-  margin-top: 30px;
 }
