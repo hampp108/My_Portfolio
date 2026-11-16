@@ -361,7 +361,45 @@ footer p {
 .copyright {
     margin-top: 20px;
 }
+/* MY JOURNEY SECTION */
 
+#journey {
+    background: #F5F3EB;
+}
+
+#journey .about-box {
+    background: white;
+    padding: 40px;
+    border-radius: 18px;
+    border-left: 5px solid #718B75;
+    box-shadow: 0 8px 25px rgba(52, 78, 65, 0.07);
+    transition: 0.3s;
+}
+
+#journey .about-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(52, 78, 65, 0.12);
+}
+
+#journey .about-box p {
+    color: #777F76;
+    font-size: 15px;
+    line-height: 2.2;
+}
+section h2 {
+    position: relative;
+    display: inline-block;
+}
+
+section h2::after {
+    content: "";
+    display: block;
+    width: 45px;
+    height: 3px;
+    background: #718B75;
+    margin-top: 10px;
+    border-radius: 10px;
+}
 
 /* RESPONSIVE DESIGN */
 
@@ -375,6 +413,39 @@ footer p {
         font-size: 34px;
     }
 
+}
+/* CURRENTLY LEARNING SECTION */
+
+#learning {
+    background: #E8EDE3;
+}
+
+#learning h2 {
+    color: #344E41;
+}
+
+#learning .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+#learning .skill {
+    background: #F5F3EB;
+    color: #344E41;
+    padding: 15px 25px;
+    border-radius: 12px;
+    border: 1px solid #C8D6C7;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+#learning .skill:hover {
+    background: #718B75;
+    color: white;
+    transform: translateY(-6px);
+    box-shadow: 0 8px 18px rgba(52, 78, 65, 0.15);
 }
 
 @media (max-width: 650px) {
